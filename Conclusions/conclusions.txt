@@ -1,0 +1,20 @@
+Conclusions
+    
+1. Based on your time series analysis, would you buy the yen now?
+
+Then Yen is forecasted to increase in price over the next five days, therefore, I would buy then yen now. 
+
+2. Is the risk of the yen expected to increase or decrease?
+
+The risk of the yen is expected to increase.
+
+3. Based on the model evaluation, would you feel confident in using these models for trading?
+
+Based on evaluating the p-values outputted from the models, I would not feel confident using these models for trading.
+   
+4. Does this model perform better or worse on out-of-sample data compared to in-sample data?
+
+This model performed significantly worse on the out-of-sample data when using our manual selection for train/test splits. 
+However, using SKLearn Model Selection's 'train_test_split', the model does similarily as well on the out-of-sample data
+as it did on the in-sample data.
+
